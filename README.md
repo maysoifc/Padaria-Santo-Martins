@@ -9,10 +9,10 @@ Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em D
 Professor: [Marco André Mendes](github.com/marcoandre)
 
 Equipe:
-- [Bruno Martins](github.com/aluno1)
-- [Jeana Carla Rodrigues](github.com/aluno2)
-- [Jeovana Roberta Rodrigues](github.com/aluno2)
-- [Mayara da Silva Oliveira](github.com/aluno2)
+- [Bruno Martins](github.com/martinsbruno2008)
+- [Jeana Carla Rodrigues](github.com/)
+- [Jeovana Roberta Rodrigues](github.com/Jeovanagvf)
+- [Mayara da Silva Oliveira](github.com/maysoifc)
 
 Links do projeto:
 (*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
