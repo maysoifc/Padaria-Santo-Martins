@@ -33,97 +33,50 @@ Links do projeto:
 5. Edite o arquivo README.md com as informações do seu projeto.
 
 # 1. Desenvolvimento
-*(Escolha um dos modelos de sistemas para desenvolver o projeto. Apague as informações desnecessárias depois.)*
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
 
-**1.1 Modelos de Sistemas**
+__1.1 Modelo de Sistema Escolhido: Ponto de Vendas (PDV)__
 
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
+**Descrição do sistema:**  
+O sistema de ponto de vendas é uma solução que permite registrar vendas, controlar estoque, emitir relatórios e organizar o fluxo de caixa de um estabelecimento comercial. No caso da padaria Santo Martins, o sistema será expandido para incluir funcionalidades adicionais como:  
+- Cadastro e gerenciamento de cardápios e produtos.  
+- Controle de funcionários e suas funções.  
+- Registro de encomendas personalizadas.  
+- Mapa dos pontos de venda e áreas de atendimento.  
+- Relatórios de vendas e estoque para apoiar decisões estratégicas.  
 
-**1.1.1 Ponto de Vendas (PDV)**
+**Motivo da escolha:**  
+A escolha do modelo PDV se justifica porque a padaria é um negócio de varejo que depende diretamente da gestão eficiente das vendas e do estoque. O sistema atenderá às necessidades da padaria Santo Martins ao centralizar informações de vendas, encomendas e funcionários, permitindo maior controle e visão sobre o desempenho do negócio.  
 
-Um sistema de ponto de vendas é um software que permite a um estabelecimento comercial registrar as vendas realizadas, gerenciar o estoque, emitir notas fiscais, etc. Ele é utilizado principalmente em lojas, supermercados, padarias, restaurantes, etc.
+**Exemplo de aplicação:**  
+Gerenciamento completo da padaria Santo Martins, com registro de vendas no caixa, controle de estoque de insumos, cadastro de cardápios e encomendas, além de relatórios que mostrem os produtos mais vendidos e auxiliem no planejamento de compras e produção.  
 
-**Exemplos de sistemas de pontos de vendas:**
-- Padaria, supermercado, cafeteria, pizzaria, restaurante, etc.
-- Farmácia, loja de roupas, papelaria, etc.
-
-
-**Exemplo: Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
-**1.1.2 Empréstimo**
-
-Um sistema de empréstimo é um software que permite a uma instituição, como uma biblioteca, gerenciar o empréstimo de livros, revistas, etc. Ele é utilizado principalmente em bibliotecas, escolas, universidades, etc.
-
-**Exemplos de sistemas de empréstimo:**
-- Biblioteca, coworking, estacionamento, etc.
-- Locadora de veículos, aluguel de equipamentos, etc.
-- Aluguel de imoveis, etc.
-- Aluguel de trajes, fantasias, brinquedos para festas, etc.
-
-**Exemplo: Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-**1.1.3 Ordem de Serviço (O.S.)**
-
-Um sistema de ordem de serviço é um software que permite a uma empresa, como uma oficina, gerenciar os serviços realizados, os clientes atendidos, etc. Ele é utilizado principalmente em oficinas mecânicas, assistência técnica, etc.
-
-**Exemplos de sistemas de ordem de serviço:**
-- Manutenção de computadores, assistência técnica de celulares, etc.
-- Manutenção de veículos, etc.
-- Manutenção de eletrodomésticos, etc.
-
-
-**Exemplo:Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio no qual ele é responsável pelos consertos e sua esposa, Marília, realiza o atendimento aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante para ele conseguir ter relatórios que o ajudem na gestão da empresa, como o status dos serviços.
 
 # 2. Situação Problema
 
-*(Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.)*
-
 ![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
+**Introdução:**  
+A padaria Santo Martins é um negócio de bairro fundado pelo Sr. Genival há alguns anos. Com o crescimento da clientela, ele precisou contratar mais funcionários para atender diferentes funções, como caixa, atendimento ao balcão, produção de pães e confeitaria. A padaria oferece uma grande variedade de produtos, incluindo pães, bolos, salgados e bebidas, além de aceitar encomendas personalizadas para festas e eventos.  
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
+**Situação-problema:** <br>
+Atualmente, o funcionamento da padaria é feito de forma manual. As vendas são registradas em cadernos ou planilhas simples, o que torna o controle do caixa pouco eficiente. O estoque de insumos, como farinha, fermento e recheios, é monitorado apenas por observação, sem relatórios precisos, o que pode gerar desperdício ou falta de produtos em momentos de alta demanda.  
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são propostas com empresas fictícias, sendo assim, você terá que tomar certas decisões sobre como a empresa funciona em relação às coisas que não estão definidas no documento base (por exemplo, no caso da padaria, dizemos que seu Genival contratou mais funcionários, mas saber quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
+O cardápio é atualizado de forma informal, muitas vezes apenas comunicado verbalmente aos funcionários, o que dificulta a padronização das informações para os clientes. As encomendas são anotadas em papéis ou agendas, correndo o risco de erros ou esquecimentos. Além disso, não há um sistema centralizado para organizar os turnos e funções dos funcionários, o que pode gerar confusão nos horários e responsabilidades.  
 
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+Outro ponto é a falta de relatórios detalhados sobre vendas e produtos mais procurados. Isso impede o Sr. Genival de ter uma visão clara sobre quais itens são mais lucrativos e quais precisam de ajustes, dificultando o planejamento estratégico da padaria.  
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários, etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia ajudar a resolvê-los.
+**Conclusão:**  
+A ausência de um sistema informatizado faz com que a gestão da padaria Santo Martins seja trabalhosa e sujeita a falhas. O controle manual de vendas, estoque, encomendas e funcionários gera retrabalho e falta de precisão nas informações. Um software de ponto de vendas com funcionalidades específicas para cardápios, encomendas, estoque e gestão de funcionários poderá resolver esses problemas, trazendo organização, eficiência e maior controle sobre o desempenho da padaria.  
 
 # 3. Descrição da proposta
+O software terá como foco organizar e informatizar o funcionamento da padaria Santo Martins, solucionando os problemas identificados. Ele permitirá o registro das vendas, o controle de estoque, o cadastro de cardápios e produtos, além do gerenciamento de encomendas personalizadas.  
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do desejado e permita sua continuidade.
+O sistema contará com três perfis de acesso:  
+- Gestor: poderá alterar valores, cardápios, estoque, excluir ou cadastrar funcionários e acessar relatórios completos.  
+- Funcionários: poderão registrar vendas e anotar encomendas, mas não terão permissão para modificar preços ou excluir funcionários.  
+- Usuários (clientes): terão acesso apenas para visualizar cardápios, informações sobre funcionários, mapa da padaria e página inicial, sem possibilidade de modificar dados.  
 
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em telas ou detalhes específicos, pois isso será feito em outro momento.
--   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+Com essa estrutura, o software garantirá maior organização e segurança nas informações, permitindo ao gestor controlar o negócio de forma eficiente, enquanto funcionários e clientes terão acesso apenas às funcionalidades adequadas ao seu perfil.  
 
 # 4. Modelagem de Dados
 
