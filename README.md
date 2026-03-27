@@ -234,6 +234,31 @@ Dados necessários: fk_idInsumo, quantidade a subtrair.
 
 Usuários: Gestor.
 
+**Saídas:**
+R.F. 09 - Visualização de Cardápio: Exibe a lista de produtos disponíveis, preços e descrições para o público externo.
+
+Dados necessários: nome_produto, descrição, preço.
+
+Usuários: Todos os níveis de usuário (incluindo clientes não logados).
+
+R.F. 10 - Relatório de Vendas: Gera uma listagem das vendas realizadas em um determinado período para análise de faturamento.
+
+Dados necessários: período (data inicial e final), idVenda, valor_total, data_venda.
+
+Usuários: Gestor.
+
+R.F. 11 - Relatório de Nível de Estoque: Exibe a quantidade atual de produtos e insumos, destacando itens que precisam de reposição.
+
+Dados necessários: nome_produto, quantidade_estoque, nome_insumo, quantidade_estoque_insumo.
+
+Usuários: Gestor.
+
+R.F. 12 - Localização e Contato: Apresenta as informações geográficas da padaria e meios de comunicação para o cliente.
+
+Dados necessários: endereço, mapa, telefone, horário de funcionamento.
+
+Usuários: Todos os níveis de usuário.
+
 # 6. Requisitos não funcionais
 
 Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
