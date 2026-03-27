@@ -85,7 +85,7 @@ Para garantir a eficiência na gestão da padaria e a integridade das informaç�
 4.1 Diagrama Entidade-Relacionamento (DER)
 O diagrama abaixo representa a estrutura do banco de dados MySQL, destacando as chaves primárias (PK), chaves estrangeiras (FK) e a cardinalidade dos relacionamentos.
 
-x
+![Diagrama de Modelagem de Dados](img/modelagemBanco.png)
 
 **4.2 Descrição das Entidades**
 Perfil: Define os níveis de acesso ao sistema (Gestor, Funcionário e Cliente), permitindo o controle de permissões.
