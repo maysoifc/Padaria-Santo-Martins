@@ -80,9 +80,36 @@ Com essa estrutura, o software garantirá maior organização e segurança nas i
 
 # 4. Modelagem de Dados
 
-(*Nessa parte a equipe deve descrever a modelagem de dados que será implementada no sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.*)
+Para garantir a eficiência na gestão da padaria e a integridade das informações, foi desenvolvido um Modelo Entidade-Relacionamento (MER) que abrange desde o controle de usuários até a baixa de insumos por produção.
 
-Defina as entidades e relacionamentos que farão parte do sistema. Desenhe o diagrama de entidade-relacionamento (DER) e descreva as entidades e relacionamentos que farão parte do sistema.
+4.1 Diagrama Entidade-Relacionamento (DER)
+O diagrama abaixo representa a estrutura do banco de dados MySQL, destacando as chaves primárias (PK), chaves estrangeiras (FK) e a cardinalidade dos relacionamentos.
+
+x
+
+**4.2 Descrição das Entidades**
+Perfil: Define os níveis de acesso ao sistema (Gestor, Funcionário e Cliente), permitindo o controle de permissões.
+
+Usuario: Armazena os dados cadastrais (nome, e-mail e senha) de todas as pessoas que interagem com o sistema, vinculando cada uma a um perfil.
+
+Venda_Encomenda: Registra o cabeçalho de cada transação, diferenciando vendas imediatas (balcão) de encomendas futuras, com controle de status e data de entrega.
+
+Produto: Contém o catálogo de itens comercializados (pães, bolos, bebidas), informando preços e a quantidade disponível para venda direta.
+
+Item_venda: Tabela intermediária que permite que uma venda contenha múltiplos produtos, preservando o histórico do preço unitário no momento da compra.
+
+Insumo: Controla o estoque de matéria-prima (farinha, açúcar, fermento), essencial para a gestão de produção do Sr. Genival.
+
+Ficha_Tecnica: Relacionamento Muitos-para-Muitos (N:M) que vincula os insumos aos produtos, definindo a quantidade exata de matéria-prima necessária para fabricar cada item do cardápio.
+
+**4.3 Principais Relacionamentos**
+Perfil x Usuario (1:N): Um perfil pode ser atribuído a vários usuários, mas cada usuário possui apenas um nível de acesso.
+
+Usuario x Venda (1:N): Registra qual funcionário realizou a venda ou qual cliente solicitou a encomenda.
+
+Venda x Produto (N:M): Uma venda pode conter vários produtos, e um produto pode estar presente em várias vendas. Esse relacionamento é resolvido pela tabela Item_venda.
+
+Produto x Insumo (N:M): Um produto utiliza diversos insumos, e um insumo pode compor diferentes produtos. Esse relacionamento é gerenciado pela Ficha_Tecnica.
 
 
 
