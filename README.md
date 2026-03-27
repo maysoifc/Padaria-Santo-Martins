@@ -208,6 +208,32 @@ Dados necessários: fk_idProduto, fk_idInsumo, quantidade_necessaria.
 
 Usuários: Gestor.
 
+
+**Processamento:**
+R.F. 05 - Autenticação de Usuário: Valida as credenciais de acesso para permitir a entrada no sistema e direcionar o usuário à sua interface correspondente.
+
+Dados necessários: e-mail, senha.
+
+Usuários: Todos os níveis de usuário.
+
+R.F. 06 - Registro de Vendas e Encomendas: Processa a saída de produtos, calculando o valor total e diferenciando vendas imediatas de encomendas com data futura.
+
+Dados necessários: fk_idUsuario, data_venda, data_entrega, tipo (venda/encomenda), status, itens selecionados, quantidade.
+
+Usuários: Gestor e Funcionário.
+
+R.F. 07 - Atualização de Status de Encomenda: Permite alterar o estado de um pedido personalizado conforme o progresso da produção.
+
+Dados necessários: idVenda_Encomenda, novo status (pendente, em produção, pronto, entregue).
+
+Usuários: Gestor e Funcionário.
+
+R.F. 08 - Baixa de Estoque de Insumos: Processa a subtração das quantidades de matéria-prima baseada na produção realizada ou lançada manualmente.
+
+Dados necessários: fk_idInsumo, quantidade a subtrair.
+
+Usuários: Gestor.
+
 # 6. Requisitos não funcionais
 
 Requisitos não funcionais (**RNFs**) são as restrições impostas a um sistema que definem seus atributos de qualidade.
