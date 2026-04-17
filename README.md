@@ -4,7 +4,7 @@
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari. <br>
 *Esse projeto, elaborado por quatro alunos da turma 3INFO1-2026 (Martins, Bruno; Rodrigues, Jeana; Rodrigues, Jeovana; e Oliveira, Mayara), tem como proposta o desenvolvimento de um site para uma padaria imaginária. Nele, não haverá apenas a apresentação de cardápios e da história para o usuário, mas também o gerenciamento de encomendas e estoque para os administradores.*
 
-**IMPORTANTE**: [**Cadastre seu projeto nesta planilha**](https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
+(https://docs.google.com/spreadsheets/d/1bSb1-S9qOf46fNH8quyoFpcjcTuBMj_EdSPchOuFULY/edit?usp=sharing).
 
 Professor: [Marco André Mendes](github.com/marcoandre)
 
@@ -15,10 +15,9 @@ Equipe:
 - [Mayara da Silva Oliveira](github.com/maysoifc)
 
 Links do projeto:
-(*Coloque aqui os links para a documentação do projeto e os repositórios e plubicação do backend e frontend.*)
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](github.com/marcoandre/pi-backend) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](github.com/marcoandre/pi-frontend) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/maysoifc/padaria-martins.git) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Frontend: [Repositório](https://github.com/maysoifc/padaria-banco.git) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 **Como usar esse modelo para o Projeto Integrador**
 
