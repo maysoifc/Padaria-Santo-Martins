@@ -16,7 +16,7 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](https://github.com/maysoifc/padaria-banco.git) e [Publicação](https://pi-backend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/maysoifc/padaria-bancodados.git) e [Publicação](https://pi-backend.herokuapp.com/)
 -   Frontend: [Repositório](https://github.com/maysoifc/padaria-martins.git) e [Publicação](https://pi-frontend.herokuapp.com/)
 
 **Como usar esse modelo para o Projeto Integrador*
