@@ -16,8 +16,8 @@ Equipe:
 
 Links do projeto:
 -   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   Backend: [Repositório](https://github.com/maysoifc/padaria-bancodados.git) e [Publicação](https://pi-backend.herokuapp.com/)
--   Frontend: [Repositório](https://github.com/maysoifc/padaria-martins.git) e [Publicação](https://pi-frontend.herokuapp.com/)
+-   Backend: [Repositório](https://github.com/maysoifc/padaria-bancodados.git) e [Publicação](https://backend-padaria.class.fabricadesoftware.ifc.edu.br/admin/)
+-   Frontend: [Repositório](https://github.com/maysoifc/padaria-martins.git) e [Publicação](https://frontend-padaria.class.fabricadesoftware.ifc.edu.br/)
 
 **Como usar esse modelo para o Projeto Integrador*
    - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
